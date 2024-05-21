@@ -1,0 +1,21 @@
+.profesor-header{
+    width: 100%;
+}
+
+.profesor-header > img {
+    width: 100%;
+    height: 115px;
+}
+
+.color-title{
+    color: #13AAFF;
+}
+
+.nombre-profesor{
+    text-align: left;
+}
+
+.lsit{
+    display: flex;
+    flex-direction: column;
+}

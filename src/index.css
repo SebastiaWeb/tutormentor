@@ -1,0 +1,155 @@
+/* index.css */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  --primary-color: #14aaff;
+}
+
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("./assets/fuentes/Poppins-Bold.eot");
+  src: url("./assets/fuentes/Poppins-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fuentes/Poppins-Bold.woff2") format("woff2"),
+    url("./assets/fuentes/Poppins-Bold.woff") format("woff"),
+    url("./assets/fuentes/Poppins-Bold.ttf") format("truetype"),
+    url("./assets/fuentes/Poppins-Bold.svg#Poppins-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins Extra Bold";
+  src: url("./assets/fuentes/Poppins-ExtraBold.eot");
+  src: url("./assets/fuentes/Poppins-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fuentes/Poppins-ExtraBold.woff2") format("woff2"),
+    url("./assets/fuentes/Poppins-ExtraBold.woff") format("woff"),
+    url("./assets/fuentes/Poppins-ExtraBold.ttf") format("truetype"),
+    url("./assets/fuentes/Poppins-ExtraBold.svg#Poppins-ExtraBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins Light";
+  src: url("./assets/fuentes/Poppins-Light.eot");
+  src: url("./assets/fuentes/Poppins-Light.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fuentes/Poppins-Light.woff2") format("woff2"),
+    url("./assets/fuentes/Poppins-Light.woff") format("woff"),
+    url("./assets/fuentes/Poppins-Light.ttf") format("truetype"),
+    url("./assets/fuentes/Poppins-Light.svg#Poppins-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+.background-burbuja {
+  background: transparent;
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+
+.background-footer {
+  background: url(./assets/images/footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 80%;
+
+}
+
+.formulario-desing {
+  background: #fff;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  width: 80%;
+}
+
+.color-primario {
+  color: var(--primary-color);
+}
+
+input {
+  background: transparent;
+  border: 1px solid #96969660;
+  border-radius: 10px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  background: var(--primary-color);
+  color: #fff;
+  font-family: "Poppins Bold";
+}
+
+@media (max-width: 767px) {}
+
+.conedor-centrado {
+  margin: 0 auto;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+@media (min-width: 1025px) {
+  .formulario-desing-login{
+    width: 50%;
+  }
+}
+
+.header {
+  background-color: #13AAFF;
+  min-height: 70px;
+}
+
+.header-titulo > h1 {
+  color: white;
+}
+
+.header-search > input{
+  color: black;
+  background-color: white;
+  border: none;
+}
+
+.header-search > input:focus{
+  color: white;
+  border: none;
+}
+
+.footer-general{
+  width: 100%;
+  height: 60px;
+  background-color: #13AAFF;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-principal{
+  margin: 0 auto;
+}
