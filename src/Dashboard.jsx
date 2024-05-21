@@ -2,6 +2,8 @@ import { useNavigate } from 'react-router-dom';
 import './assets/dashboard.css';
 import cover from './assets/images/cover.png';
 import Cards from './common/Cards/Cards';
+import Footer from './common/Footer';
+import Header from './common/Header';
 
 function Dashboards(params) {
     
@@ -35,6 +37,7 @@ function Dashboards(params) {
     let puntuation = 4.5;
     return (
         <>
+        <Header />
             <main className="w-100 dashboard">
                 <section className='w-100 row'>
                     <div className="row col-12 col-md-8 col-lg-4 p-5 dashboard-titulo align-items-center justify-content-center">
@@ -67,6 +70,7 @@ function Dashboards(params) {
                     </div>
                 </section>
             </main>
+            <Footer />
         </>
     )
 
